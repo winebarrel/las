@@ -1,5 +1,7 @@
 # las
 
+[![CI](https://github.com/winebarrel/las/actions/workflows/ci.yml/badge.svg)](https://github.com/winebarrel/las/actions/workflows/ci.yml)
+
 Retrieves a list of all email addresses that are on the suppression list for Amazon SES.
 
 ## Usage
