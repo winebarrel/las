@@ -22,3 +22,9 @@ $ las
 {"EmailAddress":"zoo@example.co","LastUpdateTime":"2020-12-23T01:23:47.3Z","Reason":"BOUNCE"}
 ...
 ```
+
+## Installation
+
+```sh
+brew install winebarrel/las/las
+```
