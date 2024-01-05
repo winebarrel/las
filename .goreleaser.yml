@@ -1,0 +1,20 @@
+before:
+  hooks:
+    - go mod tidy
+builds:
+  - main: ./cmd/las
+    ldflags:
+      - -X main.version={{.Version}}
+    env:
+      - CGO_ENABLED=0
+checksum:
+  name_template: "checksums.txt"
+brews:
+  - repository:
+      owner: winebarrel
+      name: homebrew-las
+    homepage: https://github.com/winebarrel/las
+    description: Retrieves a list of all email addresses that are on the suppression list for Amazon SES.
+    license: MIT
+    install: |
+      bin.install 'las'
