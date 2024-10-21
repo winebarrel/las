@@ -5,8 +5,8 @@ go 1.21.5
 require (
 	github.com/alecthomas/kong v1.2.1
 	github.com/aws/aws-sdk-go-v2 v1.32.2
-	github.com/aws/aws-sdk-go-v2/config v1.27.43
-	github.com/aws/aws-sdk-go-v2/service/sesv2 v1.36.2
+	github.com/aws/aws-sdk-go-v2/config v1.28.0
+	github.com/aws/aws-sdk-go-v2/service/sesv2 v1.37.0
 )
 
 require (
