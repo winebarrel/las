@@ -3,10 +3,10 @@ module github.com/winebarrel/las
 go 1.21.5
 
 require (
-	github.com/alecthomas/kong v1.2.1
+	github.com/alecthomas/kong v1.3.0
 	github.com/aws/aws-sdk-go-v2 v1.32.3
 	github.com/aws/aws-sdk-go-v2/config v1.28.1
-	github.com/aws/aws-sdk-go-v2/service/sesv2 v1.37.1
+	github.com/aws/aws-sdk-go-v2/service/sesv2 v1.38.0
 )
 
 require (
