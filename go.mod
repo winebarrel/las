@@ -2,7 +2,7 @@ module github.com/winebarrel/las
 
 go 1.23
 
-toolchain go1.25.4
+toolchain go1.25.5
 
 require (
 	github.com/alecthomas/kong v1.13.0
